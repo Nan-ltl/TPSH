@@ -1,0 +1,8 @@
+text_encoder_path: "./weights/all-MiniLM-L6-v2/"
+clip_path: "./weights/clip-vit-large-patch14/"
+clip_architecture: "ViT-L-14"
+img_mask_dim: 1
+text_mask_dim: 1
+least_chosen_patches: 12
+select_layer_number: 1
+max_enhance_percent: 0.66
